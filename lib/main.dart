@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (context)=>DeleteProvider()),
         ChangeNotifierProvider(create: (context)=>GetAllStudentProvider()),
         //ChangeNotifierProvider(create: (context)=>SearchProvider()),
+      
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
